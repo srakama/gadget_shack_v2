@@ -1,0 +1,31 @@
+{
+  "name": "gadgetshack",
+  "version": "1.0.0",
+  "description": "Private e-commerce platform with automated product scraping",
+  "private": true,
+  "workspaces": [
+    "scraper",
+    "backend",
+    "storefront"
+  ],
+  "scripts": {
+    "scrape": "cd scraper && npm run scrape",
+    "backend:dev": "cd backend && npm run dev",
+    "storefront:dev": "cd storefront && npm run dev",
+    "backend:build": "cd backend && npm run build",
+    "storefront:build": "cd storefront && npm run build",
+    "import-data": "cd backend && npm run import-data",
+    "setup": "npm install && npm run setup:scraper && npm run setup:backend && npm run setup:storefront",
+    "setup:scraper": "cd scraper && npm install",
+    "setup:backend": "cd backend && npm install",
+    "setup:storefront": "cd storefront && npm install",
+    "dev": "concurrently \"npm run backend:dev\" \"npm run storefront:dev\"",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

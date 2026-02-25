@@ -1,0 +1,37 @@
+# deps
+node_modules/
+**/node_modules/
+
+# env
+.env
+**/.env
+.env.*
+**/.env.*
+
+# logs/runtime
+logs/
+**/logs/
+uploads/
+**/uploads/
+*.log
+
+# databases
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# builds
+.next/
+dist/
+build/
+out/
+coverage/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

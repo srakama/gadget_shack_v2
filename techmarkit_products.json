@@ -1,0 +1,77 @@
+{
+  "scraped_at": "2025-08-08T06:40:45.609Z",
+  "total_products": 5,
+  "source": "https://www.techmarkit.co.za",
+  "products": [
+    {
+      "id": "sample_1754635245602_1",
+      "sku": "TECH-001",
+      "name": "Samsung Galaxy A05 64GB Dual Sim Black",
+      "price": 2159.988,
+      "description": "Samsung Galaxy A05 smartphone with 64GB storage, dual SIM support, and reliable performance for everyday use.",
+      "images": [
+        "https://techmarkit.co.za/cdn/shop/files/Samsung_A05_black_8c6582e6-de30-47d4-890f-bc9f4cfe0421_2000x.jpg"
+      ],
+      "sizes": "64GB",
+      "colors": "Black",
+      "category": "Smartphones",
+      "scraped_at": "2025-08-08T06:40:45.602Z"
+    },
+    {
+      "id": "sample_1754635245602_2",
+      "sku": "TECH-002",
+      "name": "Dell Latitude 5490 i5-8350U 16GB RAM 512GB SSD 14\"",
+      "price": 7439.987999999999,
+      "description": "Dell Latitude 5490 business laptop with Intel i5-8350U processor, 16GB RAM, and 512GB SSD. Perfect for professional use.",
+      "images": [
+        "https://techmarkit.co.za/cdn/shop/products/dell_5490_left_2000x.png"
+      ],
+      "sizes": "14 inch",
+      "colors": "Black",
+      "category": "Laptops",
+      "scraped_at": "2025-08-08T06:40:45.602Z"
+    },
+    {
+      "id": "sample_1754635245602_3",
+      "sku": "TECH-003",
+      "name": "Samsung Galaxy A16 128GB Dual Sim Black",
+      "price": 4199.987999999999,
+      "description": "Samsung Galaxy A16 smartphone with 128GB storage, dual SIM support, and modern design for everyday connectivity.",
+      "images": [
+        "https://techmarkit.co.za/cdn/shop/files/Samsung_A16_Black_2000x.jpg"
+      ],
+      "sizes": "128GB",
+      "colors": "Black",
+      "category": "Smartphones",
+      "scraped_at": "2025-08-08T06:40:45.602Z"
+    },
+    {
+      "id": "sample_1754635245602_4",
+      "sku": "TECH-004",
+      "name": "HP 15S i5-1235U 16GB RAM 512GB PCIE NVMe SSD 15.6\"",
+      "price": 9599.988,
+      "description": "HP 15S laptop with Intel i5-1235U processor, 16GB RAM, and 512GB NVMe SSD. Excellent performance for work and study.",
+      "images": [
+        "https://techmarkit.co.za/cdn/shop/files/6X7P6EA_front_2d55347f-694f-4459-b013-36ca8019614c_2000x.jpg"
+      ],
+      "sizes": "15.6 inch",
+      "colors": "Silver",
+      "category": "Laptops",
+      "scraped_at": "2025-08-08T06:40:45.602Z"
+    },
+    {
+      "id": "sample_1754635245602_5",
+      "sku": "TECH-005",
+      "name": "Apple iPhone 11 64GB Black",
+      "price": 3599.988,
+      "description": "Apple iPhone 11 with 64GB storage, dual camera system, and A13 Bionic chip. Reliable performance and great camera quality.",
+      "images": [
+        "https://techmarkit.co.za/cdn/shop/files/iphone_MHDA3AA_A_365ecfce-56c9-4f3a-ac48-044ecd56a6f0.jpg"
+      ],
+      "sizes": "64GB",
+      "colors": "Black",
+      "category": "Smartphones",
+      "scraped_at": "2025-08-08T06:40:45.602Z"
+    }
+  ]
+}

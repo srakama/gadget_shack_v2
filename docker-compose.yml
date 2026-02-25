@@ -1,0 +1,102 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: gadgetshack-postgres-dev
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: gadgetshack
+      POSTGRES_USER: gadgetshack_user
+      POSTGRES_PASSWORD: gadgetshack_dev_password_2024
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - gadgetshack-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gadgetshack_user -d gadgetshack"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: gadgetshack-redis-dev
+    restart: unless-stopped
+    command: redis-server --appendonly yes --requirepass redis_dev_password_2024
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    networks:
+      - gadgetshack-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.dev
+    container_name: gadgetshack-backend-dev
+    restart: unless-stopped
+    environment:
+      NODE_ENV: development
+      PORT: 9000
+      DATABASE_URL: postgresql://gadgetshack_user:gadgetshack_dev_password_2024@postgres:5432/gadgetshack
+      REDIS_URL: redis://:redis_dev_password_2024@redis:6379
+      JWT_SECRET: dev-jwt-secret-key-for-local-development-only
+      JWT_EXPIRES_IN: 24h
+      BCRYPT_ROUNDS: 10
+      CORS_ORIGIN: http://localhost:3000,http://localhost:8000
+    volumes:
+      - ./backend/src:/app/src
+      - ./backend/data:/app/data
+      - ./uploads:/app/uploads
+      - ./logs:/app/logs
+    ports:
+      - "9000:9000"
+    networks:
+      - gadgetshack-network
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  # Frontend (Next.js)
+  frontend:
+    build:
+      context: ./storefront
+      dockerfile: Dockerfile.dev
+    container_name: gadgetshack-frontend-dev
+    restart: unless-stopped
+    environment:
+      NODE_ENV: development
+      NEXT_PUBLIC_API_URL: http://localhost:9000/api
+    volumes:
+      - ./storefront:/app
+      - /app/node_modules
+      - /app/.next
+    ports:
+      - "3000:8000"
+    networks:
+      - gadgetshack-network
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  gadgetshack-network:
+    driver: bridge
+

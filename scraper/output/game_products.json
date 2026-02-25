@@ -1,0 +1,77 @@
+{
+  "scraped_at": "2025-08-07T09:39:20.838Z",
+  "total_products": 5,
+  "source": "https://www.game.co.za",
+  "products": [
+    {
+      "id": "sample_1754559560832_1",
+      "sku": "GAME-001",
+      "name": "Samsung Galaxy A54 5G 128GB",
+      "price": 8399.988,
+      "description": "Samsung Galaxy A54 5G smartphone with 128GB storage, triple camera system, and all-day battery life.",
+      "images": [
+        "https://media.game.co.za/media/catalog/product/s/a/samsung-galaxy-a54-5g-128gb-awesome-graphite-front_1.jpg"
+      ],
+      "sizes": "128GB, 256GB",
+      "colors": "Awesome Graphite, Awesome Violet, Awesome Lime",
+      "category": "Mobile Phones",
+      "scraped_at": "2025-08-07T09:39:20.832Z"
+    },
+    {
+      "id": "sample_1754559560832_2",
+      "sku": "GAME-002",
+      "name": "PlayStation 5 Console",
+      "price": 14399.988,
+      "description": "Sony PlayStation 5 gaming console with ultra-high speed SSD, haptic feedback, and 4K gaming capabilities.",
+      "images": [
+        "https://media.game.co.za/media/catalog/product/p/s/ps5-console-front-angle-1.jpg"
+      ],
+      "sizes": "Standard",
+      "colors": "White",
+      "category": "Gaming",
+      "scraped_at": "2025-08-07T09:39:20.832Z"
+    },
+    {
+      "id": "sample_1754559560832_3",
+      "sku": "GAME-003",
+      "name": "Apple iPad 10.9-inch Wi-Fi 64GB",
+      "price": 9599.988,
+      "description": "High-capacity portable power bank with fast charging and multiple USB ports. Never run out of battery again.",
+      "images": [
+        "https://media.game.co.za/media/catalog/product/a/p/apple-ipad-10-9-inch-wi-fi-64gb-blue-front.jpg"
+      ],
+      "sizes": "One Size",
+      "colors": "Black, White",
+      "category": "Accessories",
+      "scraped_at": "2025-08-07T09:39:20.832Z"
+    },
+    {
+      "id": "sample_1754559560832_4",
+      "sku": "GAME-004",
+      "name": "JBL Flip 6 Portable Bluetooth Speaker",
+      "price": 2399.988,
+      "description": "Portable Bluetooth speaker with excellent sound quality and long battery life. Perfect for outdoor activities.",
+      "images": [
+        "https://media.game.co.za/media/catalog/product/j/b/jbl-flip-6-portable-bluetooth-speaker-blue-front.jpg"
+      ],
+      "sizes": "One Size",
+      "colors": "Red, Blue, Green",
+      "category": "Audio",
+      "scraped_at": "2025-08-07T09:39:20.832Z"
+    },
+    {
+      "id": "sample_1754559560832_5",
+      "sku": "GAME-005",
+      "name": "Samsung 55\" 4K Smart TV",
+      "price": 10799.988,
+      "description": "Durable smartphone case with shock absorption and wireless charging compatibility.",
+      "images": [
+        "https://media.game.co.za/media/catalog/product/s/a/samsung-55-inch-4k-smart-tv-front.jpg"
+      ],
+      "sizes": "iPhone, Samsung, Google",
+      "colors": "Clear, Black, Blue, Pink",
+      "category": "Accessories",
+      "scraped_at": "2025-08-07T09:39:20.832Z"
+    }
+  ]
+}

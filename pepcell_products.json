@@ -1,0 +1,576 @@
+{
+  "scraped_at": "2025-08-06T12:29:53.885Z",
+  "total_products": 40,
+  "source": "https://www.pepcell.com",
+  "products": [
+    {
+      "id": "pepcell_alt_1754483393685_0",
+      "sku": "ALT-1",
+      "name": "Vivo Y04 256GB Dual Sim Gold",
+      "price": 3598.7999999999997,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/VivoY04256GBDualSimGoldfb.png?v=1752826265&width=533",
+        "https://pepcell.com/cdn/shop/files/VivoY04256GBDualSimGoldB.png?v=1754316249&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.713Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393713_1",
+      "sku": "ALT-2",
+      "name": "Apple iPhone 11 128Gb Black Pre-...",
+      "price": 8158.799999999999,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/AppleiPhone11128GbBlackPre-OwnedFB.png?v=1752827225&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.719Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393719_2",
+      "sku": "ALT-3",
+      "name": "Xiaomi Redmi A5 128GB Dual Sim B...",
+      "price": 2398.7999999999997,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/XiaomiRedmiA5128GBDualSimBlackFB.png?v=1752826949&width=533",
+        "https://pepcell.com/cdn/shop/files/XiaomiRedmiA5128GBDualSimBlackF.png?v=1752826949&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.724Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393724_3",
+      "sku": "ALT-4",
+      "name": "Oppo A40M 256GB Dual Sim White",
+      "price": 5398.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/OppoA40M256GBDualSimWhiteFB.png?v=1753093977&width=533",
+        "https://pepcell.com/cdn/shop/files/OppoA40M256GBDualSimWhiteB.png?v=1753093977&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.729Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393730_4",
+      "sku": "ALT-5",
+      "name": "Honor X9c 256 GB Dual Sim",
+      "price": 10798.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/honorx9c256gbfront-back.png?v=1750170344&width=533",
+        "https://pepcell.com/cdn/shop/files/honorx9c256gbcamera.png?v=1750170344&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.734Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393734_5",
+      "sku": "ALT-6",
+      "name": "Stylo Solar 64GB Dual Sim",
+      "price": 1438.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/stylosolar64gbfb.png?v=1749151663&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.737Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393737_6",
+      "sku": "ALT-7",
+      "name": "Stylo Vertigo 32GB Dual Sim",
+      "price": 1078.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/stylovertigo32gbfb.png?v=1749151623&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.743Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393743_7",
+      "sku": "ALT-8",
+      "name": "Mobicel F51 32GB Dual Sim",
+      "price": 718.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/mobicelf51front-back.png?v=1749151605&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.749Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393749_8",
+      "sku": "ALT-9",
+      "name": "Realme Note 60x Midnight Black 6...",
+      "price": 1918.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/RealmeNote60xMidnightBlackF.png?v=1751536578&width=533",
+        "https://pepcell.com/cdn/shop/files/Realme_Note_60x_Midnight_Black_F.png?v=1751536563&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.752Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393752_9",
+      "sku": "ALT-10",
+      "name": "Hisense H72 128GB Dual Sim",
+      "price": 1918.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/HisenseH72128GBDualSimFB.png?v=1745488217&width=533",
+        "https://pepcell.com/cdn/shop/files/HisenseH72128GBDualSimB.png?v=1745488217&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.754Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393754_10",
+      "sku": "ALT-11",
+      "name": "Stylo Power Plus 32MB",
+      "price": 334.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/Stylo_Power_32MB_Plus.png?v=1750168681&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.762Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393762_11",
+      "sku": "ALT-12",
+      "name": "Stylo Indigo 32MB Dual Sim",
+      "price": 166.79999999999998,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/styloindigofeaturephonefb.png?v=1749151709&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.767Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393767_12",
+      "sku": "ALT-13",
+      "name": "Stylo Iron 32MB Dual Sim",
+      "price": 274.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/styloironfeaturephonefb.png?v=1749151882&width=533",
+        "https://pepcell.com/cdn/shop/files/styloironfeaturephoneb.png?v=1749151882&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.771Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393771_13",
+      "sku": "ALT-14",
+      "name": "Stylo Phezulu 32MB Dual Sim",
+      "price": 166.79999999999998,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/stylophezulufeaturephonefb.png?v=1749151757&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.777Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393778_14",
+      "sku": "ALT-15",
+      "name": "Stylo Lazer 32MB Dual Sim",
+      "price": 166.79999999999998,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/stylolazerfeaturephonefb.png?v=1749151774&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.782Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393782_15",
+      "sku": "ALT-16",
+      "name": "Stylo Fresh 32MB Dual Sim",
+      "price": 214.79999999999998,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/stylo_fresh_feature_phone_fb.png?v=1749151735&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.784Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393784_16",
+      "sku": "ALT-17",
+      "name": "Amplify 32W Wall Charger",
+      "price": 155.988,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/AmplifyTypeC32WWallCharger.png?v=1731506543&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.787Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393787_17",
+      "sku": "ALT-18",
+      "name": "Amplify Vice Series Wireless Blu...",
+      "price": 179.988,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/AmplifyViceTwsBuds.png?v=1731502281&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.796Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393796_18",
+      "sku": "ALT-19",
+      "name": "Amplify Type C Charger Cable",
+      "price": 41.988,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/AmplifyTypeCChargerCable.png?v=1731505732&width=533",
+        "https://pepcell.com/cdn/shop/files/AmplifyTypeCChargerbox.png?v=1731505732&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.802Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393802_19",
+      "sku": "ALT-20",
+      "name": "Amplify Dual BT Speaker Grey",
+      "price": 239.988,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/AmplifyDualBluetoothSpeaker.png?v=1731504957&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.809Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393809_20",
+      "sku": "ALT-21",
+      "name": "Volkano TWS Leo Series Earphones...",
+      "price": 359.988,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/VolkanoTWSLeoSeriesEarphonesBlack.png?v=1731504132&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.820Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393820_21",
+      "sku": "ALT-22",
+      "name": "Anthem Bluetooth Earphones White",
+      "price": 95.98799999999999,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/AnthemBluetoothEarphones.png?v=1731499309&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.823Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393823_22",
+      "sku": "ALT-23",
+      "name": "Amplify Dual USB Wall Charger Black",
+      "price": 71.988,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/AmplifyDualUSBWallCharger_1868b3f7-caad-4e94-8135-c708b8fd3b66.png?v=1731506153&width=533",
+        "https://pepcell.com/cdn/shop/files/AmplifyDualUSBWallChargerbox_b3133986-b36e-409f-8ce4-2f823bf6b709.png?v=1731506153&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.836Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393836_23",
+      "sku": "ALT-24",
+      "name": "Rockit Dual Fast Charger",
+      "price": 155.988,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/RockitDualFastCharger.png?v=1731578242&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.837Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393837_24",
+      "sku": "ALT-25",
+      "name": "Amplify Dual 32W Type-C USB Car ...",
+      "price": 83.98799999999999,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/AmplifyDualCarCharger32WTypeCAndUsbInputs.png?v=1731499160&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.841Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393841_25",
+      "sku": "ALT-26",
+      "name": "Itel A06S 32GB Dual Sim",
+      "price": 958.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/itela06s32gbfb.png?v=1754311701&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.844Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393844_26",
+      "sku": "ALT-27",
+      "name": "DStv A10 Remote Control",
+      "price": 359.988,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/DStvA10RemoteControl-1.png?v=1751440232&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.847Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393847_27",
+      "sku": "ALT-28",
+      "name": "DStv HD 9s Decoder",
+      "price": 598.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/DStvHD9sDecoderfront.png?v=1751440162&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.848Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393848_28",
+      "sku": "ALT-29",
+      "name": "DStv HD 10s Decoder",
+      "price": 598.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/DStvHD10sDecoderfront.png?v=1751440141&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.849Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393849_29",
+      "sku": "ALT-30",
+      "name": "Stylo Power Plus 32MB",
+      "price": 334.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/Stylo_Power_32MB_Plus.png?v=1750168681&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.851Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393851_30",
+      "sku": "ALT-31",
+      "name": "Stylo Helium 32MB Dual Sim",
+      "price": 298.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/styloheliumfeaturephonefb.png?v=1749151896&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.852Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393852_31",
+      "sku": "ALT-32",
+      "name": "Stylo Iron 32MB Dual Sim",
+      "price": 274.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/styloironfeaturephonefb.png?v=1749151882&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.855Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393855_32",
+      "sku": "ALT-33",
+      "name": "Stylo Carbon 32MB Dual SIM",
+      "price": 238.79999999999998,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/stylocarbonfeaturephonef.png?v=1749151817&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.859Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393860_33",
+      "sku": "ALT-34",
+      "name": "Stylo Lazer 32MB Dual Sim",
+      "price": 166.79999999999998,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/stylolazerfeaturephonefb.png?v=1749151774&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.864Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393864_34",
+      "sku": "ALT-35",
+      "name": "Stylo Phezulu 32MB Dual Sim",
+      "price": 166.79999999999998,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/stylophezulufeaturephonefb.png?v=1749151757&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.867Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393867_35",
+      "sku": "ALT-36",
+      "name": "Stylo Fresh 32MB Dual Sim",
+      "price": 214.79999999999998,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/stylo_fresh_feature_phone_fb.png?v=1749151735&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.870Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393870_36",
+      "sku": "ALT-37",
+      "name": "Stylo Indigo 32MB Dual Sim",
+      "price": 166.79999999999998,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/styloindigofeaturephonefb.png?v=1749151709&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.871Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393871_37",
+      "sku": "ALT-38",
+      "name": "Stylo Vertigo 32GB Dual Sim",
+      "price": 1078.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/stylovertigo32gbfb.png?v=1749151623&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.874Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393874_38",
+      "sku": "ALT-39",
+      "name": "Mobicel F51 32GB Dual Sim",
+      "price": 718.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/mobicelf51front-back.png?v=1749151605&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.878Z"
+    },
+    {
+      "id": "pepcell_alt_1754483393878_39",
+      "sku": "ALT-40",
+      "name": "Mobicel P11 Plus 32GB Dual Sim",
+      "price": 838.8,
+      "description": "Product description not available",
+      "images": [
+        "https://pepcell.com/cdn/shop/files/MobicelP11Plus32GBDualSim.png?v=1744880811&width=533"
+      ],
+      "sizes": "",
+      "colors": "",
+      "category": "General",
+      "scraped_at": "2025-08-06T12:29:53.881Z"
+    }
+  ]
+}

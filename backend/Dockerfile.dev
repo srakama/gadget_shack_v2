@@ -1,0 +1,23 @@
+FROM node:18-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy source code
+COPY . .
+
+# Create necessary directories
+RUN mkdir -p /app/uploads /app/logs /app/data
+
+# Expose port
+EXPOSE 9000
+
+# Start the application
+CMD ["node", "src/index.js"]
+

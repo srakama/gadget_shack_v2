@@ -1,0 +1,54 @@
+# Multi-stage build for production optimization
+FROM node:18-alpine AS builder
+
+# Set working directory
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install dependencies (including dev dependencies for build)
+RUN npm ci --only=production && npm cache clean --force
+
+# Copy source code
+COPY . .
+
+# Create non-root user
+RUN addgroup -g 1001 -S nodejs && \
+    adduser -S gadgetshack -u 1001
+
+# Production stage
+FROM node:18-alpine AS production
+
+# Install security updates
+RUN apk update && apk upgrade && \
+    apk add --no-cache dumb-init curl && \
+    rm -rf /var/cache/apk/*
+
+# Set working directory
+WORKDIR /app
+
+# Copy built application from builder stage
+COPY --from=builder --chown=gadgetshack:nodejs /app/node_modules ./node_modules
+COPY --from=builder --chown=gadgetshack:nodejs /app/src ./src
+COPY --from=builder --chown=gadgetshack:nodejs /app/package*.json ./
+
+# Create necessary directories
+RUN mkdir -p /app/uploads /app/logs /app/data && \
+    chown -R gadgetshack:nodejs /app
+
+# Switch to non-root user
+USER gadgetshack
+
+# Expose port
+EXPOSE 9000
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:9000/health || exit 1
+
+# Use dumb-init to handle signals properly
+ENTRYPOINT ["dumb-init", "--"]
+
+# Start the application
+CMD ["node", "src/index.js"]
