@@ -29,3 +29,7 @@ export function requireAdminSSR(ctx) {
   return { redirect: { destination: '/login?redirect=' + encodeURIComponent(ctx.resolvedUrl || '/admin'), permanent: false } };
 }
 
+export default function AdminGuardPage() {
+  return null;
+}
+
