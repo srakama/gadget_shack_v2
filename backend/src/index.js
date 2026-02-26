@@ -57,6 +57,11 @@ app.use(cors({
       process.env.FRONTEND_URL
     ].filter(Boolean);
 
+    // Allow all Vercel preview and production deployments
+    if (origin && origin.includes('.vercel.app')) {
+      return callback(null, true);
+    }
+
     if (allowedOrigins.indexOf(origin) !== -1) {
       callback(null, true);
     } else {
