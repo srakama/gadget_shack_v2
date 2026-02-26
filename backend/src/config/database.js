@@ -1,13 +1,21 @@
-const sqlite3 = require('sqlite3').verbose();
-const path = require('path');
-const fs = require('fs-extra');
+// Auto-detect database type: PostgreSQL (production/Render) or SQLite (local dev)
+const usePg = !!process.env.DATABASE_URL;
 
-class Database {
-  constructor() {
-    this.db = null;
-    // Allow override via DB_PATH for tests or custom setups
-    this.dbPath = process.env.DB_PATH || path.join(__dirname, '../../data/gadgetshack.db');
-  }
+if (usePg) {
+  console.log('🐘 Using PostgreSQL database');
+  module.exports = require('./database-pg');
+} else {
+  console.log('📦 Using SQLite database');
+  const sqlite3 = require('sqlite3').verbose();
+  const path = require('path');
+  const fs = require('fs-extra');
+
+  class Database {
+    constructor() {
+      this.db = null;
+      // Allow override via DB_PATH for tests or custom setups
+      this.dbPath = process.env.DB_PATH || path.join(__dirname, '../../data/gadgetshack.db');
+    }
 
   async initialize() {
     try {
@@ -280,6 +288,7 @@ class Database {
       }
     });
   }
-}
+  }
 
-module.exports = new Database();
+  module.exports = new Database();
+}
