@@ -52,8 +52,10 @@ app.use(cors({
       'http://localhost:3000',
       'http://localhost:8000',
       'http://127.0.0.1:8000',
-      'http://127.0.0.1:3000'
-    ];
+      'http://127.0.0.1:3000',
+      'https://gadgetshack-frontend.onrender.com',
+      process.env.FRONTEND_URL
+    ].filter(Boolean);
 
     if (allowedOrigins.indexOf(origin) !== -1) {
       callback(null, true);
