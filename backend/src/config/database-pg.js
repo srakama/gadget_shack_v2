@@ -6,6 +6,32 @@ class Database {
     this.db = null; // For compatibility with existing code
   }
 
+  normalizeSql(sql, params = []) {
+    const text = String(sql);
+
+    // Convert SQLite `?` placeholders to pg `$1, $2, ...`
+    // This is required because much of the codebase was written for sqlite3.
+    let idx = 0;
+    const converted = text.replace(/\?/g, () => {
+      idx += 1;
+      return `$${idx}`;
+    });
+
+    return { text: converted, params };
+  }
+
+  maybeAddReturningId(sql) {
+    const s = String(sql);
+    const trimmed = s.trim();
+    const isInsert = /^insert\s+into\s+/i.test(trimmed);
+    const hasReturning = /\breturning\b/i.test(trimmed);
+
+    if (isInsert && !hasReturning) {
+      return `${trimmed} RETURNING id`;
+    }
+    return s;
+  }
+
   async initialize() {
     try {
       // Use DATABASE_URL from Render or construct from individual vars
@@ -240,7 +266,8 @@ class Database {
   async query(sql, params = []) {
     const client = await this.pool.connect();
     try {
-      const result = await client.query(sql, params);
+      const normalized = this.normalizeSql(sql, params);
+      const result = await client.query(normalized.text, normalized.params);
       return result.rows;
     } finally {
       client.release();
@@ -250,7 +277,9 @@ class Database {
   async run(sql, params = []) {
     const client = await this.pool.connect();
     try {
-      const result = await client.query(sql, params);
+      const sqlWithReturning = this.maybeAddReturningId(sql);
+      const normalized = this.normalizeSql(sqlWithReturning, params);
+      const result = await client.query(normalized.text, normalized.params);
       return {
         id: result.rows[0]?.id || null,
         changes: result.rowCount
