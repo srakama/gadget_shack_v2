@@ -58,7 +58,12 @@ app.use(cors({
     ].filter(Boolean);
 
     // Allow all Vercel preview and production deployments
-    if (origin && origin.includes('.vercel.app')) {
+    if (origin.includes('.vercel.app')) {
+      return callback(null, true);
+    }
+
+    // Allow all Render-hosted frontends (useful for Render preview URLs)
+    if (origin.includes('.onrender.com')) {
       return callback(null, true);
     }
 
